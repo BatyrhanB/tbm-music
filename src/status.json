@@ -1,0 +1,19 @@
+{
+    "unknown": "111111",
+    "good": "000000",
+    "user_signed_in": "100101",
+    "user_signed_up": "100102",
+    "user_verfied": "100103",
+    "user_already_exist": "100104",
+    "user_not_found": "100105",
+    "user_pathed_profile": "100106",
+    "user_get_profile": "100106",
+    "user_log_out": "100107",
+    "user_link_sent": "100108",
+    "password_not_valid": "100110",
+    "password_mismatch": "100111",
+    "password_vl_sended": "100112",
+    "password_not_correct": "100113",
+    "password_successfulyl_changed": "100114",
+    "password_successfulyl_resetted": "100115"
+}
