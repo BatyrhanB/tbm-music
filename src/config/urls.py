@@ -8,6 +8,7 @@ from rest_framework.documentation import include_docs_urls
 urlpatterns = [
     path(settings.ADMIN_URL, admin.site.urls),
     path("api/", include("user.urls")),
+    path("api/", include("music.urls")),
 ]
 
 if settings.DEBUG:
