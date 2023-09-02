@@ -15,7 +15,11 @@ ADMIN_URL = config("ADMIN_URL")
 
 PRODUCTION = config("PRODUCTION", default=False, cast=bool)
 
-LOCAL_APPS = ["common.apps.CommonConfig", "user.apps.UserConfig", "music.apps.MusicConfig"]
+LOCAL_APPS = [
+    "common.apps.CommonConfig", 
+    "user.apps.UserConfig", 
+    "music.apps.MusicConfig"
+]
 
 THIRD_PARTY_APPS = [
     "rest_framework",
