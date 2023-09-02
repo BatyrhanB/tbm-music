@@ -28,6 +28,8 @@ THIRD_PARTY_APPS = [
     "rest_framework_simplejwt",
     "django_filters",
     "rangefilter",
+    "drf_yasg",
+
 ]
 
 THEME_APPS = [
